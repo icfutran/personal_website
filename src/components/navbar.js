@@ -5,13 +5,20 @@ import "./navbar.css";
 const NavBar = () => {
   return (
     <div class="navbar-container">
-      <div class="left">
+      <div class="navbar-left">
         <Link to="/">ita futran</Link>
       </div>
-      <div class="right">
-        <Link to="/about">about</Link>
-        <Link to="/projects">projects</Link>
-        <button>resume</button>
+      <div class="navbar-right">
+        <Link to="/" class="nav-link">
+          home
+        </Link>
+        <Link to="/about" class="nav-link">
+          about
+        </Link>
+        <Link to="/projects" class="nav-link">
+          projects
+        </Link>
+        <button class="resume-button">resume</button>
       </div>
     </div>
   );

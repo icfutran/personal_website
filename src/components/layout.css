@@ -5,11 +5,10 @@
 
 .layout-container {
   margin: 1vh 6vw;
-  /* max-width: 500px; */
-  font-family: "Outfit";
   color: white;
 }
 
 html {
   background-color: #302f46;
+  font-family: "Outfit";
 }

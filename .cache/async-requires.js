@@ -9,8 +9,6 @@ exports.components = {
 
 
 exports.head = {
-  "component---src-pages-404-js": () => import("./../../../src/pages/404.js?export=head" /* webpackChunkName: "component---src-pages-404-jshead" */),
-  "component---src-pages-about-js": () => import("./../../../src/pages/about.js?export=head" /* webpackChunkName: "component---src-pages-about-jshead" */),
-  "component---src-pages-projects-js": () => import("./../../../src/pages/projects.js?export=head" /* webpackChunkName: "component---src-pages-projects-jshead" */)
+  "component---src-pages-404-js": () => import("./../../../src/pages/404.js?export=head" /* webpackChunkName: "component---src-pages-404-jshead" */)
 }
 
