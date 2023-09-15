@@ -21,6 +21,10 @@
       ],
       "presets": [
         {
+          "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
@@ -55,6 +59,10 @@
         }
       ],
       "presets": [
+        {
+          "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
         {
           "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
@@ -91,6 +99,10 @@
       ],
       "presets": [
         {
+          "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
+        {
           "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
@@ -125,6 +137,10 @@
         }
       ],
       "presets": [
+        {
+          "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-flow/lib/index.js",
+          "options": {}
+        },
         {
           "name": "/Users/roach/Documents/ita/personal_website/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {

@@ -2007,7 +2007,7 @@ const NotFoundPage = () => {
   }, "Go home"), "."));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFoundPage);
-const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Not found");
+const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Ita Futran");
 
 /***/ }),
 

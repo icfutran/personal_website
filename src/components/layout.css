@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(./Outfit-VariableFont_wght.ttf) format("truetype-variations");
+}
+
+.layout-container {
+  margin: 1vh 6vw;
+  /* max-width: 500px; */
+  font-family: "Outfit";
+  color: white;
+}
+
+html {
+  background-color: #302f46;
+}
