@@ -15,7 +15,7 @@
 }
 
 .home-right {
-  width: 70vh;
+  width: 65vh;
 }
 
 .contact-stack {
@@ -35,18 +35,19 @@
 }
 
 img {
-  width: 70vh;
+  width: 65vh;
   border-radius: 5%;
+  align-self: flex-end;
 }
 
 h1 {
   font-size: 8.5vw;
   font-weight: 900;
-  line-height: 8.5vw;
+  line-height: 8vw;
 }
 
 h2 {
-  margin-top: 3vh;
+  margin-top: 2vh;
   font-size: 3.5vw;
   font-weight: 700;
   line-height: 3.5vw;
