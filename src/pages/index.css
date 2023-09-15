@@ -32,6 +32,7 @@
 .contact-icon:hover {
   color: #9896f6;
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 img {

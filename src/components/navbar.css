@@ -6,6 +6,7 @@
   position: relative;
   font-size: 26px;
   margin-bottom: 3vh;
+  height: 10.75vh;
 }
 
 .navbar-left {
@@ -22,6 +23,7 @@
 
 .navbar-right > *:hover {
   color: #9896f6;
+  transform: scale(1.1);
 }
 
 .resume-button {
