@@ -1,0 +1,25 @@
+.about-container {
+  display: block;
+  /* justify-content: space-between; */
+  /* position: relative; */
+  padding-top: 3vh;
+}
+
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 10vh;
+}
+
+.about-left {
+  flex-basis: 50%;
+}
+
+.about-right {
+  width: 70vh;
+  margin-top: 2vh;
+  font-size: 1.5vw !important;
+  font-weight: 300 !important;
+  line-height: 2vw !important;
+}

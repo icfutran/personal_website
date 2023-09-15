@@ -1,0 +1,88 @@
+.timeline {
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+
+.timeline-left {
+  margin: 0px;
+  padding: 5px 10px;
+  flex: 1 1 0%;
+  display: block;
+}
+
+.title {
+  font-weight: 400;
+  margin: 0.5em 0;
+  font-size: medium;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: right;
+}
+
+.description {
+  font-weight: 400;
+  margin: 0.5em 0;
+  font-size: medium;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: right;
+}
+
+.timeline-right {
+  padding: 18px;
+  flex: 1 1 0%;
+}
+
+.timeline-divider {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  flex-basis: 10px;
+  text-align: center;
+}
+
+.timeline-divider::after {
+  margin-top: 24px;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.line-left {
+  flex: 1 1 0%;
+  border-right: 1px solid white;
+  display: block;
+  text-align: center;
+}
+.line-right {
+  flex: 1 1 0%;
+  border-left: 1px solid white;
+  display: block;
+  text-align: center;
+}
+
+.role-divider {
+  border-top: 1px solid white;
+  border-bottom: none;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.53em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}

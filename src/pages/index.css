@@ -11,7 +11,6 @@
 
 .home-left {
   flex-basis: 50%;
-  align-items: center;
 }
 
 .home-right {
@@ -39,25 +38,4 @@ img {
   width: 65vh;
   border-radius: 5%;
   align-self: flex-end;
-}
-
-h1 {
-  font-size: 8.5vw;
-  font-weight: 900;
-  line-height: 8vw;
-}
-
-h2 {
-  margin-top: 2vh;
-  font-size: 3.5vw;
-  font-weight: 700;
-  line-height: 3.5vw;
-  margin-bottom: 2vh;
-}
-
-h3 {
-  margin-top: 1vh;
-  font-size: 2.5vw;
-  font-weight: 500;
-  line-height: 2.5vw;
 }
