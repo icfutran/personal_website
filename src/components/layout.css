@@ -6,6 +6,7 @@
 .layout-container {
   margin: 1vh 6vw;
   color: white;
+  cursor: default;
 }
 
 html {
