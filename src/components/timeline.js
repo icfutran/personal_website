@@ -4,27 +4,55 @@ import "./timeline.css";
 /**
  * @props
  * props: {
- *      role: string,
- *      organization: string,
+ *      role: string (if work experience)
+ *      organization: string (if work experience)
+ *      project: string (if project)
  *      description: string,
- *      date: string
+ *      startDate: string
+ *      endDate: string (if not current)
+ *      link: string (if warranted)
  * }
  */
 const TimelineItem = ({ props }) => {
+  const experienceInfoBox = (
+    <>
+      {props.project ? (
+        <div class="title">{props.project}</div>
+      ) : (
+        <div class="title">
+          {props.role}
+          <span
+            class="organization"
+            onClick={() => {
+              window.open(props.link);
+            }}
+          >
+            {" "}
+            @{props.organization}
+          </span>
+        </div>
+      )}
+      <hr class="role-divider"></hr>
+      <div class="description">{props.description}</div>
+    </>
+  );
+  const dateInfoBox = (
+    <div class="date-info">
+      {props.startDate} - {props.endDate ?? "present"}
+    </div>
+  );
   return (
     <div class="timeline">
       <div class="timeline-left">
-        <div class="title">
-          {props.role} @ {props.organization}
-        </div>
-        <hr class="role-divider"></hr>
-        <div class="description">{props.description}</div>
+        {props.project ? dateInfoBox : experienceInfoBox}
       </div>
       <div class="timeline-divider">
         <div class="line-left"></div>
         <div class="line-right"></div>
       </div>
-      <div class="timeline-right">{props.date}</div>
+      <div class="timeline-right">
+        {props.project ? experienceInfoBox : dateInfoBox}
+      </div>
     </div>
   );
 };

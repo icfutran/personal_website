@@ -8,13 +8,29 @@ const EXPERIENCES = [
     role: "Robotics Intern",
     organization: "Axoft",
     description: "description about what you do here",
-    date: "may 2023 - present",
+    startDate: "may 2023",
+    link: "https://axoft.us/",
   },
   {
     role: "Research Assistant",
     organization: "MIT Sea Grant Lab",
     description: "description about what you do here",
-    date: "sep 2021 - present",
+    startDate: "sep 2021",
+    link: "https://seagrant.mit.edu/",
+  },
+  {
+    project: "Internal Combustion Engine",
+    description: "description about the project",
+    startDate: "tba",
+    endDate: "tba",
+  },
+  {
+    role: "Robotics Intern",
+    organization: "Macco Robotics",
+    description: "description about what you do here",
+    startDate: "jun 2022",
+    endDate: "sep 2022",
+    link: "https://www.maccorobotics.com/en",
   },
 ];
 
