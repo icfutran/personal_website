@@ -1,0 +1,57 @@
+.project-layout {
+  display: block;
+  padding-top: 3vh;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 5vh;
+}
+
+html {
+  background-color: #302f46;
+  font-family: "Outfit" !important;
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 6.5vw !important;
+  font-weight: 900 !important;
+  line-height: 7vw !important;
+}
+
+h3 {
+  margin-top: 2vh !important;
+  font-size: 3.5vw !important;
+  font-weight: 700 !important;
+  line-height: 3.5vw !important;
+  margin-bottom: 2vh !important;
+}
+
+h4 {
+  margin-top: 1vh !important;
+  font-size: 2.5vw !important;
+  font-weight: 500 !important;
+  line-height: 2.5vw !important;
+}
+
+.back-arrow {
+  margin-top: 4vh;
+  font-size: 4vw;
+  align-self: center;
+  color: white;
+}
+
+.back-arrow:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.title-right {
+  white-space: nowrap;
+  text-overflow: ellipsis !important;
+}
