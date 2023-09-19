@@ -42,7 +42,7 @@ const IndexPage = () => {
             ) : (
               <>
                 <HiMail class="contact-icon" />
-                <div class="notification">Copied!</div>
+                <div class="notification">Copied</div>
               </>
             )}
           </div>

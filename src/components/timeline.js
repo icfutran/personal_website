@@ -20,14 +20,13 @@ const TimelineItem = ({ props }) => {
         <div class="title">{props.project}</div>
       ) : (
         <div class="title">
-          {props.role}
+          {props.role}{" "}
           <span
             class="organization"
             onClick={() => {
               window.open(props.link);
             }}
           >
-            {" "}
             @{props.organization}
           </span>
         </div>

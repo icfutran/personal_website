@@ -91,4 +91,6 @@
 
 .organization:hover {
   cursor: pointer;
+  background-color: #9896f67f;
+  border-radius: 5%;
 }
