@@ -12,6 +12,7 @@
 html {
   background-color: #302f46;
   font-family: "Outfit" !important;
+  scroll-behavior: smooth;
 }
 
 h1 {

@@ -1,8 +1,17 @@
 import * as React from "react";
+import { useEffect } from "react";
+
 import { Link } from "gatsby";
 import "./navbar.css";
 
 const NavBar = () => {
+  useEffect(() => {
+    let windowScrollTimeout = setTimeout(() => {
+      window.scrollTo(0, 0);
+      clearTimeout(windowScrollTimeout);
+    }, 1);
+  }, []);
+
   return (
     <div class="navbar-container">
       <div class="navbar-left">

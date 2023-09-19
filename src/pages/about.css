@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 
 .about-left {
@@ -20,4 +20,17 @@
   font-size: 1.5vw !important;
   font-weight: 300 !important;
   line-height: 2vw !important;
+}
+
+.carrot {
+  margin: auto;
+  width: 5vh;
+  height: 5vh;
+  margin-bottom: 5vh;
+}
+
+.carrot:hover {
+  cursor: pointer;
+  color: #9896f6;
+  transform: scale(1.1);
 }

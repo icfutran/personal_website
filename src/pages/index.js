@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import Layout from "../components/layout.js";
 import ita_lathe from "../images/ita_lathe.png";
-import { AiFillLinkedin, AiFillCheckCircle } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
 import "./index.css";
 
@@ -12,7 +12,7 @@ const IndexPage = () => {
   function resetCopied() {
     setTimeout(() => {
       setCopied(false);
-    }, 500);
+    }, 1000);
   }
   return (
     <Layout>
@@ -40,7 +40,10 @@ const IndexPage = () => {
                 class="contact-icon"
               />
             ) : (
-              <AiFillCheckCircle class="contact-icon" />
+              <>
+                <HiMail class="contact-icon" />
+                <div class="notification">Copied!</div>
+              </>
             )}
           </div>
         </div>

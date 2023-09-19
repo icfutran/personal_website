@@ -39,3 +39,14 @@ img {
   border-radius: 5%;
   align-self: flex-end;
 }
+
+.notification {
+  background-color: #9896f6;
+  padding: 0.15vw 0.5vw 0;
+  border-radius: 5%;
+  margin-top: 4vh;
+  margin-left: -2vw;
+  font-size: 2vw;
+  color: black;
+  text-align: center;
+}

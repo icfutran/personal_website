@@ -21,21 +21,22 @@
 .title {
   padding: 5px 10px 0;
   font-weight: 300;
-  font-size: 1.3vw !important;
+  font-size: 1.5vw !important;
   display: block;
 }
 
 .description {
-  padding: 0 10px 40px;
+  padding: 0 10px 50px;
   font-weight: 400;
   margin-top: 5px;
-  font-size: medium;
+  font-size: 1.2vw;
   display: block;
   color: rgb(205, 205, 205);
 }
 
 .date-info {
   margin: 10px 10px;
+  font-size: 1.2vw;
 }
 
 .timeline-divider {
@@ -43,7 +44,7 @@
   flex-direction: row;
   margin: 0px;
   padding: 0px;
-  flex-basis: 10px;
+  flex-basis: 20px;
   text-align: center;
 }
 
@@ -51,22 +52,23 @@
   margin-top: 18px;
   content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: white;
   border-radius: 50%;
+  margin-left: 2.5px;
   z-index: 1;
 }
 
 .line-left {
   flex: 1 1 0%;
-  border-right: 1px solid white;
+  border-right: 3px solid white;
   display: block;
   text-align: center;
 }
 .line-right {
   flex: 1 1 0%;
-  border-left: 1px solid white;
+  border-left: 3px solid white;
   display: block;
   text-align: center;
 }
