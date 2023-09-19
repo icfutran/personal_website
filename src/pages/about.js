@@ -1,10 +1,7 @@
 import * as React from "react";
-import { useEffect } from "react";
 import Layout from "../components/layout.js";
 import TimelineItem from "../components/timeline.js";
 import { BsFillCaretDownFill } from "react-icons/bs";
-import { shouldUpdateScroll } from "../../gatsby-browser.js";
-
 import "./about.css";
 
 const EXPERIENCES = [

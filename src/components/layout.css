@@ -13,6 +13,8 @@ html {
   background-color: #302f46;
   font-family: "Outfit" !important;
   scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges;
+  overflow-x: hidden;
 }
 
 h1 {

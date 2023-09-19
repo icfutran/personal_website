@@ -28,11 +28,11 @@
   border-radius: 2vw;
   background-color: #9896f6;
   color: black;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
 }
 
 .filter-option:hover {
   color: white;
+  transform: scale(1.1);
 }
 
 .filter-item {

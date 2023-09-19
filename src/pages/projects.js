@@ -4,6 +4,15 @@ import "./projects.css";
 
 const FILTERS = ["all", "work", "research", "personal"];
 
+const PROJECTS = [
+  { title: "Surgical Robot", category: "work", path: null },
+  { title: "Internal Combustion Engine", category: "personal", path: null },
+  { title: "Humanoid Arm", category: "work", path: null },
+  { title: "Tank-Inspired Robot", category: "personal", path: null },
+  { title: "Nestle Coffee Dispenser", category: "work", path: null },
+  { title: "DJI Drone Wrapper", category: "research", path: null },
+];
+
 const ProjectsPage = () => {
   const [filter, setFilter] = React.useState("all");
 
