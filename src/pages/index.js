@@ -24,26 +24,30 @@ const IndexPage = () => {
           <h4>BIOMECHANICS</h4>
           <h4>BIOMIMICRY</h4>
           <div class="contact-stack">
-            <AiFillLinkedin
-              onClick={() => {
-                window.open("https://www.linkedin.com/in/ita-futran");
-              }}
-              class="contact-icon"
-            />
+            <a
+              href="https://www.linkedin.com/in/ita-futran"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin class="contact-icon" />
+            </a>
             {!copied ? (
-              <HiMail
-                onClick={() => {
-                  navigator.clipboard.writeText("icfutran@mit.edu");
-                  setCopied(true);
-                  resetCopied();
-                }}
-                class="contact-icon"
-              />
+              <div class="mail">
+                <div class="copy-to-clipboard">copy to clipboard</div>
+                <HiMail
+                  onClick={() => {
+                    navigator.clipboard.writeText("icfutran@mit.edu");
+                    setCopied(true);
+                    resetCopied();
+                  }}
+                  class="contact-icon"
+                />
+              </div>
             ) : (
-              <>
+              <div class="mail">
+                <div class="copied">copied</div>
                 <HiMail class="contact-icon" />
-                <div class="notification">Copied</div>
-              </>
+              </div>
             )}
           </div>
         </div>
