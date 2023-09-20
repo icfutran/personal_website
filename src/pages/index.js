@@ -8,6 +8,7 @@ import "./index.css";
 
 const IndexPage = () => {
   const [copied, setCopied] = useState(false);
+  const [hoverMail, setHoverMail] = useState(false);
 
   function resetCopied() {
     setTimeout(() => {
@@ -33,13 +34,17 @@ const IndexPage = () => {
             </a>
             {!copied ? (
               <div class="mail">
-                <div class="copy-to-clipboard">copy to clipboard</div>
+                {hoverMail && (
+                  <div class="copy-to-clipboard">copy to clipboard</div>
+                )}
                 <HiMail
                   onClick={() => {
                     navigator.clipboard.writeText("icfutran@mit.edu");
                     setCopied(true);
                     resetCopied();
                   }}
+                  onMouseEnter={() => setHoverMail(true)}
+                  onMouseLeave={() => setHoverMail(false)}
                   class="contact-icon"
                 />
               </div>
