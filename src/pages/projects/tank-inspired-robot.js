@@ -3,7 +3,7 @@ import ProjectLayout from "../../components/project_layout.js";
 
 const TankInspiredRobot = () => {
   return (
-    <ProjectLayout projectTitle="tank inspired robot">hello</ProjectLayout>
+    <ProjectLayout projectTitle="Tank Inspired Robot">hello</ProjectLayout>
   );
 };
 

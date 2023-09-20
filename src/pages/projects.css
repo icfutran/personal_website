@@ -52,6 +52,7 @@
 }
 
 .image-container {
+  position: relative;
   width: 30%;
   aspect-ratio: 1;
   justify-content: center;
@@ -64,7 +65,28 @@
   object-fit: cover;
 }
 
-.project-image:hover {
+.image-container:hover .project-image {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.4;
+  transform: scale(1.05);
+}
+
+.img_description {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 40%;
+  color: white;
+  visibility: hidden;
+}
+
+.image-container:hover .img_description {
+  visibility: visible;
+}
+
+.image-title {
+  text-align: center;
+  font-size: 2vw !important;
+  font-weight: 300 !important;
+  line-height: 2vw !important;
 }

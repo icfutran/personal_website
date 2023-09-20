@@ -3,7 +3,7 @@ import ProjectLayout from "../../components/project_layout.js";
 
 const InternalCombustionEngine = () => {
   return (
-    <ProjectLayout projectTitle="internal combustion engine">
+    <ProjectLayout projectTitle="Internal Combustion Engine">
       hello
     </ProjectLayout>
   );

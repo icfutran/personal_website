@@ -1,12 +1,15 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout.js";
-import surgical_robot from "../projects/surgical-robot/cover-photo.jpeg";
-import combustion_engine from "../projects/internal-combustion-engine/cover-photo.jpeg";
-import tank_robot from "../projects/tank-inspired-robot/cover-photo.jpeg";
-import coffee_dispenser from "../projects/nestle-coffee-dispenser/cover-photo.jpeg";
-import humanoid_arm from "../projects/humanoid-arm/cover-photo.webp";
-import drone_wrapper from "../projects/dji-drone-wrapper/cover-photo.jpeg";
+import surgical_robot from "../images/projects/surgical-robot/cover-photo.jpeg";
+import combustion_engine from "../images/projects/internal-combustion-engine/cover-photo.png";
+import tank_robot from "../images/projects/tank-inspired-robot/cover-photo.png";
+import coffee_dispenser from "../images/projects/nestle-coffee-dispenser/cover-photo.jpeg";
+import humanoid_arm from "../images/projects/humanoid-arm/cover-photo.webp";
+import electric_go_kart from "../images/projects/electric-go-kart/cover-photo.webp";
+import arcturus_drone from "../images/projects/arcturus-drone/cover-photo.png";
+import arcturus_boat from "../images/projects/arcturus-boat/cover-photo.jpg";
+import drone_wrapper from "../images/projects/dji-drone-wrapper/cover-photo.jpeg";
 import "./projects.css";
 
 const FILTERS = ["all", "work", "research", "personal"];
@@ -48,6 +51,24 @@ const PROJECTS = [
     path: "/projects/dji-drone-wrapper",
     cover: drone_wrapper,
   },
+  {
+    title: "Electric Go Kart",
+    category: "personal",
+    path: "/projects/electric-go-kart",
+    cover: electric_go_kart,
+  },
+  {
+    title: "Arcturus Drone",
+    category: "personal",
+    path: "/projects/arcturus-drone",
+    cover: arcturus_drone,
+  },
+  {
+    title: "Arcturus Boat",
+    category: "personal",
+    path: "/projects/arcturus-boat",
+    cover: arcturus_boat,
+  },
 ];
 
 const ProjectsPage = () => {
@@ -85,6 +106,9 @@ const ProjectsPage = () => {
                     alt={project["title"]}
                     class="project-image"
                   />
+                  <div class="img_description">
+                    <div class="image-title">{project["title"]}</div>
+                  </div>
                 </Link>
               </div>
             );
