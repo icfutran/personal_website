@@ -24,19 +24,14 @@ h2 {
   line-height: 7vw !important;
 }
 
-h3 {
-  margin-top: 2vh !important;
-  font-size: 3.5vw !important;
-  font-weight: 700 !important;
-  line-height: 3.5vw !important;
-  margin-bottom: 2vh !important;
-}
-
-h4 {
-  margin-top: 1vh !important;
-  font-size: 2.5vw !important;
-  font-weight: 500 !important;
-  line-height: 2.5vw !important;
+.project-description {
+  font-size: 1.5vw !important;
+  font-weight: 300 !important;
+  line-height: 2vw !important;
+  width: 27.5vw !important;
+  height: 40vh !important;
+  margin: 1vh 0.5vw !important;
+  text-align: flex-end;
 }
 
 .back-arrow {
@@ -54,4 +49,45 @@ h4 {
 .title-right {
   white-space: nowrap;
   text-overflow: ellipsis !important;
+}
+
+.new-stack {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-media {
+  position: relative;
+  width: 27.5vw;
+  height: 40vh;
+  margin: 1vh 0.5vw;
+  border-radius: 5% !important;
+}
+
+.project-media:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.4; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fullscreen-image img,
+video {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: auto;
 }
