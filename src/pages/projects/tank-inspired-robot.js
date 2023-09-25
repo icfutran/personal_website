@@ -24,21 +24,30 @@ const TankInspiredRobot = () => {
           class="project-media"
           onClick={() => setShowFullScreen("coverPhoto")}
         />
+        <div class="project-description">
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+        </div>
+      </div>
+      <div class="new-stack">
+        <div class="project-description text-right">
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+        </div>
         <img
           src={image1}
           alt=""
           class="project-media"
           onClick={() => setShowFullScreen("image1")}
         />
-        <div class="project-description">
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description
-        </div>
       </div>
       <div class="new-stack">
         <img
@@ -47,18 +56,27 @@ const TankInspiredRobot = () => {
           class="project-media"
           onClick={() => setShowFullScreen("image2")}
         />
-        <video controls class="project-media">
+        <div class="project-description">
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+        </div>
+      </div>
+      <div class="new-stack">
+        <div class="project-description text-right">
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+          description description descriptiondescrip description description
+        </div>
+        <video muted controls class="project-media">
           <source src={video1} type="video/mp4" />
         </video>
-        <div class="project-description">
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description description description
-          description description description
-        </div>
       </div>
       {showFullScreen !== "" && (
         <div class="fullscreen-overlay" onClick={() => setShowFullScreen("")}>

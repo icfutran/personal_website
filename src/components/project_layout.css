@@ -28,10 +28,11 @@ h2 {
   font-size: 1.5vw !important;
   font-weight: 300 !important;
   line-height: 2vw !important;
-  width: 27.5vw !important;
+  width: 40vw !important;
   height: 40vh !important;
   margin: 1vh 0.5vw !important;
-  text-align: flex-end;
+  align-items: center;
+  display: flex;
 }
 
 .back-arrow {
@@ -54,14 +55,18 @@ h2 {
 .new-stack {
   display: flex;
   justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  gap: 5vw;
 }
 
 .project-media {
   position: relative;
-  width: 27.5vw;
+  width: 40vw;
   height: 40vh;
   margin: 1vh 0.5vw;
   border-radius: 5% !important;
+  object-fit: cover;
 }
 
 .project-media:hover {
@@ -90,4 +95,16 @@ video {
   object-fit: contain;
   margin-right: auto;
   margin-left: auto;
+}
+
+.text-right {
+  text-align: flex-end;
+}
+
+video::-webkit-media-controls-volume-slider {
+  display: none;
+}
+
+video::-webkit-media-controls-mute-button {
+  display: none;
 }
