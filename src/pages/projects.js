@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout.js";
+import ProjectContext from "../store.js";
 import surgical_robot from "../images/projects/surgical-robot/cover-photo.jpeg";
 import combustion_engine from "../images/projects/internal-combustion-engine/cover-photo.png";
 import tank_robot from "../images/projects/tank-inspired-robot/cover-photo.png";
@@ -72,7 +73,7 @@ const PROJECTS = [
 ];
 
 const ProjectsPage = () => {
-  const [filter, setFilter] = React.useState("all");
+  const { filter, setFilter } = React.useContext(ProjectContext);
 
   return (
     <Layout>

@@ -1,9 +1,12 @@
 import * as React from "react";
 import { useEffect } from "react";
 import { Link } from "gatsby";
+import ProjectContext from "../store.js";
 import "./navbar.css";
 
 const NavBar = () => {
+  const { filter, setFilter } = React.useContext(ProjectContext);
+
   useEffect(() => {
     let windowScrollTimeout = setTimeout(() => {
       window.scrollTo(0, 0);
@@ -20,10 +23,10 @@ const NavBar = () => {
         <Link to="/" class="nav-link">
           home
         </Link>
-        <Link to="/about" class="nav-link">
+        <Link to="/about" class="nav-link" onClick={() => setFilter("all")}>
           about
         </Link>
-        <Link to="/projects" class="nav-link">
+        <Link to="/projects" class="nav-link" onClick={() => setFilter("all")}>
           projects
         </Link>
         <button class="resume-button">resume</button>
