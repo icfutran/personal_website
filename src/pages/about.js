@@ -24,6 +24,7 @@ const EXPERIENCES = [
     description: "description about the project",
     startDate: "tba",
     endDate: "tba",
+    link: "internal-combustion-engine",
   },
   {
     role: "Robotics Intern",

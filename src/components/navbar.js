@@ -29,7 +29,13 @@ const NavBar = () => {
         <Link to="/projects" class="nav-link" onClick={() => setFilter("all")}>
           projects
         </Link>
-        <button class="resume-button">resume</button>
+        <a
+          href="https://drive.google.com/file/d/1ATYUJnotjmzRntZSkfidy9iA4Gf1gI7I/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="resume-button">resume</button>
+        </a>
       </div>
     </div>
   );

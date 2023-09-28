@@ -92,5 +92,15 @@
 .organization:hover {
   cursor: pointer;
   background-color: #9896f67f;
-  border-radius: 5%;
+  border-radius: 0.2vw;
+}
+
+.project-header {
+  color: #d6cde6;
+}
+
+.project-header:hover {
+  cursor: pointer;
+  background-color: #d6cde67f;
+  border-radius: 0.2vw;
 }
