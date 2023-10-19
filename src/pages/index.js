@@ -21,7 +21,7 @@ const IndexPage = () => {
         <div class="home-left">
           <h1>ITA FUTRAN</h1>
           <h3>MECHANICAL ENGINEER</h3>
-          <h4>HUMAN INTERACTION ROBOTICS</h4>
+          <h4>HUMAN INTERACTING ROBOTICS</h4>
           <h4>BIOMECHANICS</h4>
           <h4>BIOMIMICRY</h4>
           <div class="contact-stack">
