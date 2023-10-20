@@ -6,6 +6,7 @@ import arcturus_drone from "../images/projects/arcturus-drone/cover-photo.png";
 import combustion_cad from "../images/projects/internal-combustion-engine/cad.png";
 import shoelace from "../images/projects/shoelace-tightener/cover-photo.jpg";
 import shoelace1 from "../images/projects/shoelace-tightener/photo1.jpg";
+import jewelry_case from "../images/projects/jewelry-case/cover-photo.png";
 
 const PROJECTS = [
   {
@@ -51,6 +52,13 @@ const PROJECTS = [
     path: "/projects/shoelace-tightener",
     cover: { src: shoelace, orientation: "vertical" },
     photo1: { src: shoelace1, orientation: "horizontal" },
+  },
+  {
+    _id: 4,
+    title: "Jewelry Case",
+    category: "personal",
+    path: "/projects/jewelry-case",
+    cover: { src: jewelry_case, orientation: "horizontal" },
   },
 ];
 

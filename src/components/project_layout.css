@@ -156,3 +156,7 @@ video::-webkit-media-controls-mute-button {
   object-fit: contain !important;
   background: white;
 }
+
+.smaller-img {
+  width: 35vw !important;
+}
