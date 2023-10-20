@@ -120,7 +120,17 @@ h2 {
 }
 
 .text-right {
-  text-align: flex-end;
+  text-align: flex-end !important;
+}
+
+.only-text > * {
+  text-align: center !important;
+}
+
+.mini-title {
+  /* text-align: center !important; */
+  font-size: larger;
+  font-weight: 500;
 }
 
 video::-webkit-media-controls-volume-slider {

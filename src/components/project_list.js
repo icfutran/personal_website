@@ -29,7 +29,7 @@ const PROJECTS = [
     title: "Tank-Inspired Robot",
     category: "personal",
     path: "/projects/tank-inspired-robot",
-    cover: { src: tank_robot, orientation: "vertical" },
+    cover: { src: tank_robot, orientation: "horizontal" },
   },
   {
     _id: 4,
