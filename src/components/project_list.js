@@ -7,6 +7,9 @@ import combustion_cad from "../images/projects/internal-combustion-engine/cad.pn
 import shoelace from "../images/projects/shoelace-tightener/cover-photo.jpg";
 import shoelace1 from "../images/projects/shoelace-tightener/photo1.jpg";
 import jewelry_case from "../images/projects/jewelry-case/cover-photo.png";
+import yoyo from "../images/projects/yoyo-manufacturing/cover-photo.png";
+import yoyo1 from "../images/projects/yoyo-manufacturing/yoyo1.png";
+import yoyo2 from "../images/projects/yoyo-manufacturing/yoyo2.png";
 
 const PROJECTS = [
   {
@@ -59,6 +62,15 @@ const PROJECTS = [
     category: "personal",
     path: "/projects/jewelry-case",
     cover: { src: jewelry_case, orientation: "horizontal" },
+  },
+  {
+    _id: 5,
+    title: "Yo-yo Manufacturing",
+    category: "personal",
+    path: "/projects/yoyo-manufacturing",
+    cover: { src: yoyo, orientation: "horizontal" },
+    photo1: { src: yoyo1, orientation: "horizontal" },
+    photo2: { src: yoyo2, orientation: "horizontal" },
   },
 ];
 
