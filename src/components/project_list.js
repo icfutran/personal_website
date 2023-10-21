@@ -10,6 +10,7 @@ import combustion_cad from "../images/projects/internal-combustion-engine/cad.pn
 import shoelace from "../images/projects/shoelace-tightener/cover-photo.jpg";
 import shoelace1 from "../images/projects/shoelace-tightener/photo1.jpg";
 import jewelry_case from "../images/projects/jewelry-case/cover-photo.png";
+import jewelry1 from "../images/projects/jewelry-case/photo1.png";
 import yoyo from "../images/projects/yoyo-manufacturing/cover-photo.png";
 import yoyo1 from "../images/projects/yoyo-manufacturing/yoyo1.png";
 import yoyo2 from "../images/projects/yoyo-manufacturing/yoyo2.png";
@@ -67,7 +68,8 @@ const PROJECTS = [
     title: "Jewelry Case",
     category: "personal",
     path: "/projects/jewelry-case",
-    cover: { src: jewelry_case, orientation: "horizontal" },
+    cover: { src: jewelry_case, orientation: "vertical" },
+    photo1: { src: jewelry1, orientation: "horizontal" },
   },
   {
     _id: 5,

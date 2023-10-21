@@ -164,3 +164,7 @@ video::-webkit-media-controls-mute-button {
 .smaller-img {
   width: 35vw !important;
 }
+
+.img-but-smaller {
+  width: 38vw !important;
+}

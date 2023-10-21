@@ -8,7 +8,7 @@ const JewelryCase = () => {
   const project = PROJECTS[6];
   return (
     <ProjectLayout projectTitle="Jewelry Case">
-      <div class="new-stack">
+      <div class="new-stack longaf">
         <img
           src={project["cover"]["src"]}
           alt=""
@@ -23,20 +23,18 @@ const JewelryCase = () => {
           organized on a display. Unfortunately, living in a dorm meant I did
           not want my jewelry to be displayed in plain view, but rather on the
           inside of my closet door. A quick amazon search told me I would not
-          find this online.
+          find this online.<br></br>
+          <br></br>I took measurements of my closet door to make a jewelry
+          display case that would hang from the door. Bringing these
+          measurements to my favorite makerspace, I gathered all the aluminum
+          scrap metal I could find. Since I did not have a large sheet at my
+          disposal, I designed the display to be made of many small rectangles
+          that could be scavenged from sheet metal, and connected with pop
+          rivets to maintain a clean look.
         </div>
       </div>
       <div class="new-stack">
         <div class="project-description text-right">
-          I took measurements of my closet door to make a jewelry display case
-          that would hang from the door. Bringing these measurements to my
-          favorite makerspace, I gathered all the aluminum scrap metal I could
-          find. Since I did not have a large sheet at my disposal, I designed
-          the display to be made of many small rectangles that could be
-          scavenged from sheet metal, and connected with pop rivets to maintain
-          a clean look.
-        </div>
-        <div class="project-description">
           The design included holes for dangling earrings, separate rows of
           hooks for bracelets and necklaces, and finally a felt-lined wooden box
           at the bottom to hold rings and stud earrings. The hooks were made
@@ -44,6 +42,12 @@ const JewelryCase = () => {
           display was a success! My jewelry is safely hidden but easily accessed
           by myself.
         </div>
+        <img
+          src={project["photo1"]["src"]}
+          alt=""
+          class="project-media img-but-smaller"
+          onClick={() => setShowFullScreen("photo1")}
+        />
       </div>
       {showFullScreen !== "" && (
         <div class="fullscreen-overlay" onClick={() => setShowFullScreen("")}>
