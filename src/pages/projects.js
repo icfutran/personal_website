@@ -40,11 +40,19 @@ const ProjectsPage = () => {
             return (
               <div class={"image-container " + project["cover"]["orientation"]}>
                 <Link to={project["path"]}>
-                  <img
-                    src={project["cover"]["src"]}
-                    alt={project["title"]}
-                    class="project-image"
-                  />
+                  {project["cover"]["fitting"] ? (
+                    <img
+                      src={project["cover"]["src"]}
+                      alt={project["title"]}
+                      class={project["cover"]["fitting"]}
+                    />
+                  ) : (
+                    <img
+                      src={project["cover"]["src"]}
+                      alt={project["title"]}
+                      class="project-image"
+                    />
+                  )}
                   <div class="img_description">
                     <div class="image-title">{project["title"]}</div>
                   </div>

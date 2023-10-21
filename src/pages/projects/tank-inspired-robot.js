@@ -34,6 +34,20 @@ const TankInspiredRobot = () => {
             were supplied that matched the DC motors provided.
           </div>
         </div>
+        <img
+          src={project["photo1"]["src"]}
+          alt=""
+          class="project-media"
+          onClick={() => setShowFullScreen("photo1")}
+        />
+      </div>
+      <div class="new-stack">
+        <img
+          src={project["photo2"]["src"]}
+          alt=""
+          class="project-media"
+          onClick={() => setShowFullScreen("photo2")}
+        />
         <div class="project-description only-text">
           <div>
             <div class="mini-title">ELECTRONICS</div>
@@ -44,7 +58,7 @@ const TankInspiredRobot = () => {
           </div>
         </div>
       </div>
-      <div class="new-stack">
+      <div class="new-stack longaf">
         <div class="project-description text-right only-text">
           <div>
             <div class="mini-title">TANK TREADS</div>
@@ -55,8 +69,30 @@ const TankInspiredRobot = () => {
             coefficient when interacting with the ground, with the goal of
             allowing my tank to move easily with the given DC motors which had a
             very low output torque.
+            <br></br>
+            <br></br>Tank treads need to be in constant tension to be able to
+            navigate uneven terrain. Because the treads are stiff, the tension
+            was applied to the belays holding the treads in place. There is one
+            spoked wheel on each side to move the treads, with four accompanying
+            belays to keep them in place. The belays were tensioned on the
+            inside of the tank with rubber bands.
           </div>
         </div>
+        <video muted controls class="project-media">
+          <source src={project["video"]["src"]} type="video/mp4" />
+        </video>
+        {/* <div class="project-description only-text">
+          <div>
+            Tank treads need to be in constant tension to be able to navigate
+            uneven terrain. Because the treads are stiff, the tension was
+            applied to the belays holding the treads in place. There is one
+            spoked wheel on each side to move the treads, with four accompanying
+            belays to keep them in place. The belays were tensioned on the
+            inside of the tank with rubber bands.
+          </div>
+        </div> */}
+      </div>
+      {/* <div class="new-stack">
         <div class="project-description only-text">
           <div>
             Tank treads need to be in constant tension to be able to navigate
@@ -67,7 +103,7 @@ const TankInspiredRobot = () => {
             inside of the tank with rubber bands.
           </div>
         </div>
-      </div>
+      </div> */}
       {showFullScreen !== "" && (
         <div class="fullscreen-overlay" onClick={() => setShowFullScreen("")}>
           <div

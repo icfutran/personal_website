@@ -63,6 +63,15 @@
   grid-row: span 2;
 }
 
+.shrink {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  object-fit: fill !important;
+  object-position: center center;
+}
+
 .image-container {
   position: relative;
   border-radius: 5%;

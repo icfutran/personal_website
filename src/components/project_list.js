@@ -1,5 +1,8 @@
 import combustion_engine from "../images/projects/internal-combustion-engine/cover-photo.png";
 import tank_robot from "../images/projects/tank-inspired-robot/cover-photo.png";
+import tank1 from "../images/projects/tank-inspired-robot/image1.png";
+import tank2 from "../images/projects/tank-inspired-robot/image2.png";
+import tank_video from "../images/projects/tank-inspired-robot/video.mp4";
 import robotic_arm from "../images/projects/robotic-arm/cover-photo.png";
 import electric_go_kart from "../images/projects/electric-go-kart/cover-photo.webp";
 import arcturus_drone from "../images/projects/arcturus-drone/cover-photo.png";
@@ -17,8 +20,8 @@ const PROJECTS = [
     title: "Internal Combustion Engine",
     category: "personal",
     path: "/projects/internal-combustion-engine",
-    cover: { src: combustion_engine, orientation: "vertical" },
-    photo1: { src: combustion_cad, orientation: "vertical" },
+    cover: { src: combustion_cad, orientation: "vertical", fitting: "shrink" },
+    photo1: { src: combustion_engine, orientation: "vertical" },
   },
   {
     _id: 2,
@@ -33,6 +36,9 @@ const PROJECTS = [
     category: "personal",
     path: "/projects/tank-inspired-robot",
     cover: { src: tank_robot, orientation: "horizontal" },
+    photo1: { src: tank1, orientation: "horizontal" },
+    photo2: { src: tank2, orientation: "horizontal" },
+    video: { src: tank_video, orientation: "horizontal" },
   },
   {
     _id: 6,

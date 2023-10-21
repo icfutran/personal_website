@@ -9,7 +9,7 @@ const InternalCombustionEngine = () => {
   console.log(project);
   return (
     <ProjectLayout projectTitle="Internal Combustion Engine">
-      <div class="new-stack longer">
+      <div class="new-stack long">
         <img
           src={project["cover"]["src"]}
           alt=""
