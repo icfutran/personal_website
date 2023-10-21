@@ -77,6 +77,10 @@ h2 {
   height: 70vh !important;
 }
 
+.longgaf > * {
+  height: 75vh !important;
+}
+
 .project-media {
   position: relative;
   width: 40vw;

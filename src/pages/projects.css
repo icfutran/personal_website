@@ -68,7 +68,8 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
-  object-fit: fill !important;
+  object-fit: contain !important;
+  background: white;
   object-position: center center;
 }
 
