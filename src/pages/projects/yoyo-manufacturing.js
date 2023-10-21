@@ -39,7 +39,7 @@ const YoyoManufacturing = () => {
         <img
           src={project["photo1"]["src"]}
           alt=""
-          class="project-media smaller-img"
+          class="project-media"
           onClick={() => setShowFullScreen("photo1")}
         />
       </div>
@@ -48,7 +48,7 @@ const YoyoManufacturing = () => {
           src={project["photo2"]["src"]}
           alt=""
           class="project-media"
-          onClick={() => setShowFullScreen("cover")}
+          onClick={() => setShowFullScreen("photo2")}
         />
         <div class="project-description">
           <div>

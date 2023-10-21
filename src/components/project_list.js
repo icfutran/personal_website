@@ -4,7 +4,9 @@ import tank1 from "../images/projects/tank-inspired-robot/image1.png";
 import tank2 from "../images/projects/tank-inspired-robot/image2.png";
 import tank_video from "../images/projects/tank-inspired-robot/video.mp4";
 import robotic_arm from "../images/projects/robotic-arm/cover-photo.png";
-import electric_go_kart from "../images/projects/electric-go-kart/cover-photo.webp";
+import electric_go_kart from "../images/projects/electric-go-kart/cover-photo.jpg";
+import kart1 from "../images/projects/electric-go-kart/photo1.png";
+import kart2 from "../images/projects/electric-go-kart/photo2.png";
 import arcturus_drone from "../images/projects/arcturus-drone/cover-photo.png";
 import combustion_cad from "../images/projects/internal-combustion-engine/cad.png";
 import shoelace from "../images/projects/shoelace-tightener/cover-photo.jpg";
@@ -47,6 +49,8 @@ const PROJECTS = [
     category: "personal",
     path: "/projects/electric-go-kart",
     cover: { src: electric_go_kart, orientation: "vertical" },
+    photo1: { src: kart1, orientation: "horizontal" },
+    photo2: { src: kart2, orientation: "horizontal" },
   },
   {
     _id: 7,
