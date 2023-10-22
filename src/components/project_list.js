@@ -116,7 +116,7 @@ const PROJECTS = [
   {
     _id: 10,
     title: "Oyster Flipping Robot",
-    category: "personal",
+    category: "research",
     path: "/projects/oyster-flipping-robot",
     cover: { src: oyster, orientation: "vertical" },
     photo1: { src: oyster1, orientation: "horizontal" },

@@ -44,7 +44,7 @@ const EXPERIENCES = [
     project: "Oyster Flipping Robot",
     startDate: "sep 2021",
     endDate: "march 2022",
-    // link: "internal-combustion-engine",
+    link: "oyster-flipping-robot",
   },
   {
     project: "Arcturus Drone",
@@ -78,15 +78,21 @@ const AboutPage = () => {
           </div>
           <div class="about-right">
             My name is Ita Futran and I am a mechanical engineering student at
-            MIT. I focus my studies on human-interacting robotics, biomechanics,
-            and biomimicry.
+            MIT. Over the course of my education I have found a passion for the
+            intersection of biology and robotics. I appreciate topics such as
+            mobility, bio-inspired robots, biomimicry, and human interacting
+            robotics. I love how versatile humans can be and hope to create
+            modular robots with programmable capabilities.
             <br></br>
             <br></br>
-            The most favoritest Rachel ever made me this website so that I can
-            get a job and become her sugar mommy. I love her so much I'm a simp
-            for her and I'm gonna build an awesome walk-in chicken coop with an
-            oversized run, waterproof interior, nesting boxes with egg doors and
-            indoor perches because she wants 500+ chickens.
+            My studies have been primarily centered about mechanical
+            engineering, but I strongly believe that in order to build something
+            great, you have to have a basic understanding of all the parts. To
+            do so, I have further expanded my studies on electrical engineering,
+            programming, and biomechanics. I am excited to learn more and create
+            robots for people. Please reach out to me at icfutran@mit.edu to
+            chat about any thoughts on technology, research, or job
+            opportunities.
           </div>
         </div>
         <a id="link" href="#timeline">
