@@ -11,6 +11,7 @@ import mitrobotic2 from "../images/projects/mit-robotics-comp/photo2.jpg";
 import kart1 from "../images/projects/electric-go-kart/photo1.png";
 import kart2 from "../images/projects/electric-go-kart/photo2.png";
 import arcturus_drone from "../images/projects/arcturus-drone/cover-photo.png";
+import drone1 from "../images/projects/arcturus-drone/photo1.jpg";
 import combustion_cad from "../images/projects/internal-combustion-engine/cad.png";
 import shoelace from "../images/projects/shoelace-tightener/cover-photo.jpg";
 import shoelace1 from "../images/projects/shoelace-tightener/photo1.jpg";
@@ -22,6 +23,9 @@ import yoyo2 from "../images/projects/yoyo-manufacturing/yoyo2.png";
 import desk from "../images/projects/personal-desk/cover-photo.jpg";
 import desk1 from "../images/projects/personal-desk/photo1.jpg";
 import desk2 from "../images/projects/personal-desk/photo2.jpg";
+import oyster from "../images/projects/oyster-flipping-robot/cover-photo.png";
+import oyster1 from "../images/projects/oyster-flipping-robot/photo1.png";
+import oyster2 from "../images/projects/oyster-flipping-robot/photo2.png";
 
 const PROJECTS = [
   {
@@ -64,6 +68,7 @@ const PROJECTS = [
     category: "personal",
     path: "/projects/arcturus-drone",
     cover: { src: arcturus_drone, orientation: "vertical", fitting: "shrink" },
+    photo1: { src: drone1, orientation: "horizontal" },
   },
   {
     _id: 0,
@@ -107,6 +112,15 @@ const PROJECTS = [
     cover: { src: desk, orientation: "horizontal" },
     photo1: { src: desk1, orientation: "horizontal" },
     photo2: { src: desk2, orientation: "vertical" },
+  },
+  {
+    _id: 10,
+    title: "Oyster Flipping Robot",
+    category: "personal",
+    path: "/projects/oyster-flipping-robot",
+    cover: { src: oyster, orientation: "vertical" },
+    photo1: { src: oyster1, orientation: "horizontal" },
+    photo2: { src: oyster2, orientation: "vertical" },
   },
 ];
 

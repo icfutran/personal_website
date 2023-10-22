@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import "./timeline.css";
 
 /**
@@ -19,9 +18,18 @@ const TimelineItem = ({ props }) => {
     <>
       {props.project ? (
         <div class="title">
-          <Link to={"/projects/" + props.link} class="project-header">
-            {props.project}
-          </Link>
+          {props.link ? (
+            <a
+              href={"/projects/" + props.link}
+              target="_blank"
+              rel="noreferrer"
+              class="project-header"
+            >
+              {props.project}
+            </a>
+          ) : (
+            <span class="project-header-disabled">{props.project}</span>
+          )}
         </div>
       ) : (
         <div class="title">
@@ -36,8 +44,13 @@ const TimelineItem = ({ props }) => {
           </span>
         </div>
       )}
-      <hr class="role-divider"></hr>
-      <div class="description">{props.description}</div>
+      {props.description && (
+        <>
+          <hr class="role-divider"></hr>
+          <div class="description">{props.description}</div>
+        </>
+      )}
+      <div class="space"></div>
     </>
   );
   const dateInfoBox = (

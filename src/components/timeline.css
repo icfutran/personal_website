@@ -26,12 +26,16 @@
 }
 
 .description {
-  padding: 0 10px 50px;
+  padding: 0 10px;
   font-weight: 400;
   margin-top: 5px;
   font-size: 1.2vw;
   display: block;
   color: rgb(205, 205, 205);
+}
+
+.space {
+  padding-bottom: 25px;
 }
 
 .date-info {
@@ -103,4 +107,8 @@
   cursor: pointer;
   background-color: #d6cde67f;
   border-radius: 0.2vw;
+}
+
+.project-header-disabled {
+  color: #d6cde6;
 }

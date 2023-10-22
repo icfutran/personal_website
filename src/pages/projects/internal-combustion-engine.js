@@ -6,7 +6,6 @@ import "../../components/project_layout.css";
 const InternalCombustionEngine = () => {
   const [showFullScreen, setShowFullScreen] = React.useState("");
   const project = PROJECTS[0];
-  console.log(project);
   return (
     <ProjectLayout projectTitle="Internal Combustion Engine">
       <div class="new-stack long">
