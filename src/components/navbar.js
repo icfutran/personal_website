@@ -30,7 +30,7 @@ const NavBar = () => {
           projects
         </Link>
         <a
-          href="https://drive.google.com/file/d/1ATYUJnotjmzRntZSkfidy9iA4Gf1gI7I/view?usp=sharing"
+          href="https://drive.google.com/file/d/1xYnJiUrEXDGoqhz0ASRmjY4cgycGcoxx/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
