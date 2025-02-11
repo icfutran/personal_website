@@ -6,7 +6,7 @@ import "./about.css";
 
 const EXPERIENCES = [
   {
-    role: "Robotics Intern / Part Time Engineer",
+    role: "Mechanical Engineer",
     organization: "Axoft",
     startDate: "may 2023",
     link: "https://axoft.us/",
