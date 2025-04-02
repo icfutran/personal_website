@@ -14,7 +14,7 @@ const EXPERIENCES = [
   {
     project: "CPR Robot",
     startDate: "april 2023",
-    description: "programmed a 60 OF robotic arm to perfrom CPR autonomously",
+    description: "programmed a 6 DOF robotic arm to perform CPR autonomously",
   },
   {
     project: "Internal Combustion Engine",
@@ -77,12 +77,12 @@ const AboutPage = () => {
             <h2>MAKER.</h2>
           </div>
           <div class="about-right">
-            My name is Ita Futran and I am a mechanical engineering student at
-            MIT. Over the course of my education I have found a passion for the
-            intersection of biology and robotics. I appreciate topics such as
-            mobility, bio-inspired robots, biomimicry, and human interacting
-            robotics. I love how versatile humans can be and hope to create
-            modular robots with programmable capabilities.
+            My name is Ita Futran and I recently graduated from MIT. Over the 
+            course of my education I have found a passion for robotics and the 
+            intersection of mechanical engineering with embedded systems. I appreciate 
+            topics such as human interacting robotics, bio-inspired robots, and mobility. 
+            I love how versatile humans can be and hope to create machines to accentuate 
+            and improve our innate capabilities. 
             <br></br>
             <br></br>
             My studies have been primarily centered about mechanical
@@ -90,7 +90,7 @@ const AboutPage = () => {
             great, you have to have a basic understanding of all the parts. To
             do so, I have further expanded my studies on electrical engineering,
             programming, and biomechanics. I am excited to learn more and create
-            robots for people. Please reach out to me at icfutran@mit.edu to
+            great things for people. Please reach out to me at ita.futran@gmail.com to
             chat about any thoughts on technology, research, or job
             opportunities.
           </div>

@@ -39,7 +39,7 @@ const IndexPage = () => {
                 )}
                 <HiMail
                   onClick={() => {
-                    navigator.clipboard.writeText("icfutran@mit.edu");
+                    navigator.clipboard.writeText("itafutran@alum.mit.edu");
                     setCopied(true);
                     resetCopied();
                   }}
